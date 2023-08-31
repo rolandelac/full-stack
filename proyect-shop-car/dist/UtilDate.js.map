@@ -1,0 +1,1 @@
+{"version":3,"file":"UtilDate.js","sourceRoot":"","sources":["../src/UtilDate.ts"],"names":[],"mappings":";;;;;AAAA,oDAA4B;AAE5B,MAAqB,QAAQ;IAElB,MAAM,CAAC,cAAc;QACxB,IAAI,QAAQ,GAAG,IAAA,gBAAM,GAAE,CAAC,GAAG,EAAE,CAAA;QAC7B,OAAO,QAAQ,CAAC,MAAM,CAAC,qBAAqB,CAAC,CAAA;IACjD,CAAC;CAEJ;AAPD,2BAOC"}
