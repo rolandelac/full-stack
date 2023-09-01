@@ -23,5 +23,5 @@ export class EntityProduct {
         state: boolean
 
         @Column({nullable: false, type:"double"})
-        amount: boolean
+        amount: number
 }

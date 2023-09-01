@@ -10,7 +10,7 @@ export default class DaoProduct{
         return result
     }
 
-    public static async getAll(): Promise<EntityProduct[]{
+    public static async getAll(): Promise<EntityProduct[]>{
         return await instanceDatabase.manager.getRepository(EntityProduct).find({
             where:{
 
@@ -29,5 +29,11 @@ export default class DaoProduct{
             }
         )
     }   
+
+    public static async delete(entity:EntityProduct){
+        await instanceDatabase.manager
+        .getRepository(EntityProduct)
+        .delete(entity)
+    }  
 
 }

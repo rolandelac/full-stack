@@ -9,41 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.EntityProduct = void 0;
+exports.EntityPrueba = void 0;
 const typeorm_1 = require("typeorm");
-let EntityProduct = class EntityProduct {
+let EntityPrueba = class EntityPrueba {
 };
-exports.EntityProduct = EntityProduct;
+exports.EntityPrueba = EntityPrueba;
 __decorate([
     (0, typeorm_1.PrimaryColumn)(),
     (0, typeorm_1.Generated)("uuid"),
     __metadata("design:type", String)
-], EntityProduct.prototype, "id_product", void 0);
+], EntityPrueba.prototype, "id_prueba", void 0);
 __decorate([
     (0, typeorm_1.Column)({ nullable: false }),
     __metadata("design:type", String)
-], EntityProduct.prototype, "name", void 0);
-__decorate([
-    (0, typeorm_1.Column)({ nullable: false }),
-    __metadata("design:type", String)
-], EntityProduct.prototype, "color", void 0);
-__decorate([
-    (0, typeorm_1.Column)({ nullable: false }),
-    __metadata("design:type", String)
-], EntityProduct.prototype, "description", void 0);
-__decorate([
-    (0, typeorm_1.Column)({ nullable: true, type: "datetime" }),
-    __metadata("design:type", String)
-], EntityProduct.prototype, "date_created", void 0);
-__decorate([
-    (0, typeorm_1.Column)({ nullable: false }),
-    __metadata("design:type", Boolean)
-], EntityProduct.prototype, "state", void 0);
-__decorate([
-    (0, typeorm_1.Column)({ nullable: false, type: "double" }),
-    __metadata("design:type", Number)
-], EntityProduct.prototype, "amount", void 0);
-exports.EntityProduct = EntityProduct = __decorate([
+], EntityPrueba.prototype, "name", void 0);
+exports.EntityPrueba = EntityPrueba = __decorate([
     (0, typeorm_1.Entity)()
-], EntityProduct);
-//# sourceMappingURL=EntityProduct.js.map
+], EntityPrueba);
+//# sourceMappingURL=EntityPrueba.js.map
